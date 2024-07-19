@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: #21222A;
+    color: #61DAFB;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.head1 {
+    font-size: 2rem;
+}
+
+.nav-right h3 {
+    color:#FFF;
+}
+
+.head1 {
+    padding-left: 1rem;
+}
+
+.main_content {
+    background-color: #282D35;
+    color: #FFF;
+    height: 100vh;
+    padding: 30px 25px;
+}
+
+.main_content h2 {
+    font-size: 2rem;
+}
