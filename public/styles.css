@@ -34,13 +34,29 @@ body {
     padding-left: 1rem;
 }
 
+/* MAIN CONTENT */
+
 .main_content {
-    background-color: #282D35;
     color: #FFF;
     height: 100vh;
     padding: 30px 25px;
+    background-image: url(./reactjs-icon\ 2.png);
+    background-color: #282D35;
+    background-repeat: no-repeat;
+    background-position: right 22%;
+
 }
 
 .main_content h2 {
     font-size: 2rem;
+}
+
+.main_content ul > li {
+    padding-block: 10px;
+    max-width: 70%;
+}
+
+.main_content ul > li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
 }
